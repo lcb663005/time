@@ -21,7 +21,7 @@
 </head>
 <body>
 <div id="wrap">
-	<div class="title">波波专用倒计时</div>
+	<div class="title">倒计时</div>
 	<div class="end_wrap">
 		<span>结束时间：</span>
 		<input id="edtime" onclick="laydate({istime:true,format:'YYYY/MM/DD hh:mm:ss'})" type="text">
@@ -51,7 +51,7 @@
 		var t = endTime.getTime() - nowTime;
 
 		if(t<=0){
-			alert('请重新输入');
+			alert('时间不会倒流滴~~~');
 			 return false;
 		}
 
